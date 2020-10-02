@@ -73,23 +73,6 @@ To help you get your feet wet and get you familiar with our contribution process
 ### A Simple Component
 React components implement a render() method that takes input data and returns what to display. React uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by render() via this.props.
 
-### A Simple Example
-
-class HelloMessage extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello {this.props.name}
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(
-  <HelloMessage name="Taylor" />,
-  document.getElementById('hello-example')
-);
-
 ### License
 
 React is [MIT licensed](./LICENSE).
